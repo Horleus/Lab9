@@ -24,8 +24,8 @@ int main()
          cin >> Dx >> Dy;
          cout << endl;
 
-   d1=sqrt(pow(Ax-Bx, 2)+pow(Ay-By, 2));
-   d2=sqrt()
+   d1=sqrt(pow(Ax-Bx),2) + pow((Ay-By),2);
+   d2=sqrt(pow(Bx-Cx),2) + pow((By-Cy),2);
 
 
 
