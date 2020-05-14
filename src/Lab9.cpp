@@ -37,5 +37,6 @@ int main()
 	   cout << "Це не є квадрат" << endl;
    }
 
+
 	return 0;
 }
