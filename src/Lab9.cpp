@@ -24,6 +24,14 @@ int main()
          cin >> Dx >> Dy;
          cout << endl;
 
+    x1=Ax;
+    x2=Bx;
+    y1=Ay;
+    y2=By;
+
+   d=sqrt((x1-x2)^2+(y1-y2)^2);
+
+
 
 	return 0;
 }
