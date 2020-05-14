@@ -29,6 +29,5 @@ int main()
    d2=sqrt(pow((Bx-Cx),2) + pow((By-Cy),2));
 
 
-
 	return 0;
 }
