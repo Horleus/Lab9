@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
    double Ax,Ay,Bx,By,Cx,Cy,Dx,Dy;
-   double d1,d2;
+   double d1,d2,d3,d4;
 
    cout << "A(x,y)";
    cin >> Ax >> Ay;
@@ -25,10 +25,17 @@ int main()
          cin >> Dx >> Dy;
          cout << endl;
 
-   d1=sqrt(pow((Ax-Bx),2) + pow((Ay-By),2));
+   d1=sqrt(pow((Ax-Bx),2) + pow((Ay-By),2)); // Дві сторони
    d2=sqrt(pow((Bx-Cx),2) + pow((By-Cy),2));
+   d3=sqrt(pow((Ax-Cx),2) + pow((Ay-Cy),2)); // Дві діагоналі
+   d4=sqrt(pow((Bx-Dx),2) + pow((By-Dy),2));
 
-
+   if(d1 == d2 && d3 == d4){
+	   cout << "Це є квадрат" << endl;
+   }
+   else {
+	   cout << "Це не є квадрат" << endl;
+   }
 
 	return 0;
 }
