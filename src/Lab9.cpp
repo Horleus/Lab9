@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
    double Ax,Ay,Bx,By,Cx,Cy,Dx,Dy;
+   double d1,d2;
 
    cout << "A(x,y)";
    cin >> Ax >> Ay;
@@ -24,8 +25,8 @@ int main()
          cin >> Dx >> Dy;
          cout << endl;
 
-   d1=sqrt(pow(Ax-Bx),2) + pow((Ay-By),2);
-   d2=sqrt(pow(Bx-Cx),2) + pow((By-Cy),2);
+   d1=sqrt(pow((Ax-Bx),2) + pow((Ay-By),2));
+   d2=sqrt(pow((Bx-Cx),2) + pow((By-Cy),2));
 
 
 
