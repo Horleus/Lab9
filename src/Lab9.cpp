@@ -25,16 +25,16 @@ int main()
          cin >> Dx >> Dy;
          cout << endl;
 
-   d1=sqrt(pow((Ax-Bx),2) + pow((Ay-By),2)); // Ð”Ð²Ñ– ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð¸
+   d1=sqrt(pow((Ax-Bx),2) + pow((Ay-By),2)); // Äâ³ ñòîðîíè
    d2=sqrt(pow((Bx-Cx),2) + pow((By-Cy),2));
-   d3=sqrt(pow((Ax-Cx),2) + pow((Ay-Cy),2)); // Ð”Ð²Ñ– Ð´Ñ–Ð°Ð³Ð¾Ð½Ð°Ð»Ñ–
+   d3=sqrt(pow((Ax-Cx),2) + pow((Ay-Cy),2)); // Äâ³ ä³àãîíàë³
    d4=sqrt(pow((Bx-Dx),2) + pow((By-Dy),2));
 
    if (d1 == d2 && d3 == d4){
-	   cout << "Ð¦Ðµ Ñ” ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚" << endl;
+	   cout << "Öå º êâàäðàò" << endl;
    }
    else {
-	   cout << "Ð¦Ðµ Ð½Ðµ Ñ” ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚" << endl;
+	   cout << "Öå íå º êâàäðàò" << endl;
    }
 
 	return 0;
