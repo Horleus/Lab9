@@ -1,15 +1,15 @@
-//============================================================================
-// Name        : Lab9.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <iostream>
+#include <math.h>
+
 using namespace std;
 
-int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+int main()
+{
+   double Ax,Ay,Bx,By,Cx,Cy,Dx,Dy;
+
+
+
+
 	return 0;
 }
