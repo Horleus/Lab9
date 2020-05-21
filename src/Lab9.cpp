@@ -9,6 +9,8 @@ int main()
    double Ax,Ay,Bx,By,Cx,Cy,Dx,Dy;
    double d1,d2,d3,d4;
 
+   setlocale(LC_ALL, "Ukrainian");
+
    cout << "A(x,y)";
    cin >> Ax >> Ay;
    cout << endl;
